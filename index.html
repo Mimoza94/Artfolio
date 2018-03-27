@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Artfolio - Bunster and Hariet</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+<div class="header" id="myHeader">
+    <div class="topnav">
+  <a class="active" href="#home"> <img src="./images/artfolio small header.png"></a>
+  <a href="#about">About</a>
+  <a href="#Login">Login</a>
+  <a href="#contact">Contact</a>
+  <input type="text" placeholder="Search..">
+</div>
+</div>
+
+    <div class="banner">
+    <img src="./images/profile pic.jpeg" style="width: 200px; height:200px; padding: 80px 0px 0px 0px;">
+    <h1>Bunster and Hariet</h1>
+  </div>
+
+<div class="about">
+  <p1>A webcomic about a girl and her conflicting thoughts and indecisiveness, interpreted in the form of cute bunnies.</p1>
+</div>
+<br>
+<div class="socials">
+  <p2>
+  <a href="https://www.facebook.com/bunsterandhariet/" target="_blank"><img border="0" height="60" src="./images/splash fb.png"/></a>
+  <a href="https://www.instagram.com/bunsterandhariet/" target="_blank"><img border="0" height="60" src="./images/splash insta.png" width="70" /></a>
+  <a href="https://twitter.com/bunsterhariet" target="_blank"><img border="0" height="60" src="./images/splash twitter.png" width="70" /></a>
+</p2>
+</div>
+
+
+
+
+
+<div class="clearfix">
+  <div class="img-container">
+    <img src="./images/bh cards.png" alt="bh cards" style="width: 365px; height:365px;"> <button>Like</button>
+  </div>
+  <div class="img-container">
+    <img src="./images/BH christmas spirit.png" alt="BH christmas spirit" style="width: 365px; height:365px;"> <button>Like</button>
+  </div>
+  <div class="img-container">
+    <img src="./images/bh resolutions.png" alt="bh resolutions" style="width: 365px; height:365px;"> <button>Like</button>
+  </div>
+  <div class="img-container">
+    <img src="./images/bh santa.png" alt="bh santa" style="width: 365px; height:365px;"> <button>Like</button>
+  </div>
+  <div class="img-container">
+    <img src="./images/bh snow outside.png" alt="bh snow outside" style="width: 365px; height:365px;"> <button>Like</button>
+  </div>
+  <div class="img-container">
+    <img src="./images/bh snow.png" alt="bh snow" style="width: 365px; height:365px;"> <button>Like</button>
+  </div>
+  <div class="img-container">
+    <img src="./images/bh tree.png" alt="bh tree" style="width: 365px; height:365px;"> <button>Like</button>
+  </div>
+  <div class="img-container">
+    <img src="./images/get ready to be loved.png" alt="get ready to be loved" style="width: 365px; height:365px;"> <button>Like</button>
+  </div>
+</div>
+
+
+
+
+<div class="comics">
+  <table class="table">
+      <tbody>
+        <tr>
+          <td>
+            <img src='./images/bh cards.png' style="width: 365px; height:365px;">
+            <button>Like</button>
+        </td>
+          <td>
+            <img src='./images/BH christmas spirit.png' style="width: 365px; height:365px;">
+            <button>Like</button>
+          </td>
+          <td>
+            <img src='./images/bh resolutions.png' style="width: 365px; height:365px;">
+            <button>Like</button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img src='./images/bh santa.png' style="width: 365px; height:365px;">
+            <button>Like</button>
+          </td>
+          <td>
+            <img src='./images/bh snow outside.png' style="width: 365px; height:365px;">
+            <button>Like</button>
+          </td>
+          <td>
+            <img src='./images/bh snow.png' style="width: 365px; height:365px;">
+            <button>Like</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div>
+
+
+
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+
+
+
+    <script>
+  $("button").on("click", function () {
+  alert("clicked!")
+  });
+</script>
+  </body>
+</html>
