@@ -1,7 +1,7 @@
 /* Add a black background color to the top navigation bar */
 .topnav {
     overflow: hidden;
-    background-color: #D0D3D4;
+    background-color: #ddd;
 }
 
 /* Style the links inside the navigation bar */
@@ -24,8 +24,8 @@
 
 /* Style the "active" element to highlight the current page */
 .topnav a.active {
-    background-color: #D0D3D4;
-    color: #D0D3D4;
+    background-color: #ddd;
+    color: #ddd;
 }
 
 /* Style the search box inside the navigation bar */
@@ -80,7 +80,7 @@
 /* Style the header */
 .header {
   padding: 0px 0px;
-  background-color: #D0D3D4;
+  background-color: #ddd;
 }
 
 /* Page content */
