@@ -103,7 +103,7 @@
 
 .banner{
   text-align: center;
-  background: url("../images/banner.jpeg");
+  background: url("../images/banner.png");
   background-size: 100%;
   repeat: no-repeat;
   color: black;
@@ -113,7 +113,7 @@ h1 {
   font-family: 'Permanent Marker', cursive;
 }
 header{
-  background-image: url("../images/banner.jpeg");
+  background-image: url("../images/banner.png");
   repeat: no-repeat;
 }
 a {
