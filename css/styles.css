@@ -1,7 +1,7 @@
 /* Add a black background color to the top navigation bar */
 .topnav {
     overflow: hidden;
-    background-color: silver;
+    background-color: #D0D3D4;
 }
 
 /* Style the links inside the navigation bar */
@@ -80,7 +80,7 @@
 /* Style the header */
 .header {
   padding: 0px 0px;
-  background-color: silver;
+  background-color: #D0D3D4;
 }
 
 /* Page content */
