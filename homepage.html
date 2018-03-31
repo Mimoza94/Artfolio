@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Artfolio Homepage</title>
+    <title>Artfolio - Bunster and Hariet</title>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <script
@@ -19,37 +19,105 @@
 </div>
 </div>
 
+<div class="banner">
+    <img src="./images/bh new profile pic.png" style="width: 200px; height:200px; padding: 80px 0px 0px 0px;">
+    <h1>Bunster and Hariet</h1>
+</div>
+
+<div class="about">
+  <p1>A webcomic about a girl and her conflicting thoughts and indecisiveness, interpreted in the form of cute bunnies.</p1>
+</div>
+<br>
+<div class="socials">
+  <p2>
+  <a href="https://www.facebook.com/bunsterandhariet/" target="_blank"><img border="0" height="60" src="./images/splash fb.png"/></a>
+  <a href="https://www.instagram.com/bunsterandhariet/" target="_blank"><img border="0" height="60" src="./images/splash insta.png" width="70" /></a>
+  <a href="https://twitter.com/bunsterhariet" target="_blank"><img border="0" height="60" src="./images/splash twitter.png" width="70" /></a>
+</p2>
+</div>
+
 <div class="clearfix">
   <div class="img-container">
-    <img src="./images/top 100.png" alt="top 100" style="width: 365px; height:365px; border-radius: 15px;">
+    <img src="./images/bh cards.png" alt="bh cards" style="width: 365px; height:365px; border-radius: 15px;"> <button>Like</button>
   </div>
   <div class="img-container">
-    <a href="comics.html"><img src="./images/comics.png" alt="comics" style="width: 365px; height:365px; border-radius: 15px;"></a>
+    <img src="./images/BH christmas spirit.png" alt="BH christmas spirit" style="width: 365px; height:365px; border-radius: 15px;"> <button>Like</button>
   </div>
   <div class="img-container">
-    <img src="./images/digital art.png" alt="digital art" style="width: 365px; height:365px; border-radius: 15px;">
+    <img src="./images/bh resolutions.png" alt="bh resolutions" style="width: 365px; height:365px; border-radius: 15px;"> <button>Like</button>
   </div>
   <div class="img-container">
-    <img src="./images/photography.png" alt="photography" style="width: 365px; height:365px; border-radius: 15px;">
+    <img src="./images/bh santa.png" alt="bh santa" style="width: 365px; height:365px; border-radius: 15px;"> <button>Like</button>
   </div>
   <div class="img-container">
-    <img src="./images/film.png" alt="film" style="width: 365px; height:365px; border-radius: 15px;">
+    <img src="./images/bh snow outside.png" alt="bh snow outside" style="width: 365px; height:365px; border-radius: 15px;"> <button>Like</button>
   </div>
   <div class="img-container">
-    <img src="./images/paintings.png" alt="paintings" style="width: 365px; height:365px; border-radius: 15px;">
+    <img src="./images/bh snow.png" alt="bh snow" style="width: 365px; height:365px; border-radius: 15px;"> <button>Like</button>
   </div>
   <div class="img-container">
-    <img src="./images/sculptures.png" alt="sculptures" style="width: 365px; height:365px; border-radius: 15px;">
+    <img src="./images/bh tree.png" alt="bh tree" style="width: 365px; height:365px; border-radius: 15px;"> <button>Like</button>
   </div>
   <div class="img-container">
-    <img src="./images/music.png" alt="music" style="width: 365px; height:365px; border-radius: 15px;">
-  </div>
-  <div class="img-container">
-    <img src="./images/poems.png" alt="poems" style="width: 365px; height:365px; border-radius: 15px;">
+    <img src="./images/get ready to be loved.png" alt="get ready to be loved" style="width: 365px; height:365px; border-radius: 15px;"> <button>Like</button>
   </div>
 </div>
 
+<hr>
 
+<div class="heading"><i><h1>Meet the artist</h1></i></div>
+
+<p>
+  <b> Artist's name: <img src="./images/mic profile pic lego.png" alt="Michelle Co profile pic" width="180" height="180" align="left";> </b> Michelle Co<br />
+  <br />
+  <b> Bio:</b> A twenty-something comic enthusiast, based in the Philippines, with a passion for puns!<br />
+  <br />
+  <b> Artist's socials:</b>
+
+  <div class="artistsocials">
+    <p2>
+    <a href="https://www.facebook.com/bunsterandhariet/" target="_blank"><img border="0" height="50" src="./images/splash fb.png"/></a>
+    <a href="https://www.instagram.com/bunsterandhariet/" target="_blank"><img border="0" height="50" src="./images/splash insta.png" width="70" /></a>
+    <a href="https://twitter.com/bunsterhariet" target="_blank"><img border="0" height="50" src="./images/splash twitter.png" width="70" /></a>
+  </p2>
+  </div>
+</p>
+
+
+<div id="respond">
+          Is your pattern library up to date today? Alla Kholmatova has just finished a fully fledged book on Design Systems and how to get them right. With common traps, gotchas and the lessons she learned. Hardcover, eBook. Just sayin'.
+
+
+
+            Table of Contents →
+
+  <h3>Leave a Comment</h3>
+
+  <form action="post_comment.php" method="post" id="commentform">
+
+    <label for="comment_author" class="required">Your name</label>
+    <input type="text" name="comment_author" id="comment_author" value="" tabindex="1" required="required">
+
+    <label for="email" class="required">Your email;</label>
+    <input type="email" name="email" id="email" value="" tabindex="2" required="required">
+
+    <label for="comment" class="required">Your message</label>
+    <textarea name="comment" id="comment" rows="10" tabindex="4"  required="required"></textarea>
+
+    <-- comment_post_ID value hard-coded as 1 -->
+    <input type="hidden" name="comment_post_ID" value="1" id="comment_post_ID" />
+    <input name="submit" type="submit" value="Submit comment" />
+
+  </form>
+
+</div>
+
+
+
+
+<br />
+<br />
+<br />
 
 
 
@@ -64,12 +132,18 @@ var header = document.getElementById("myHeader");
 var sticky = header.offsetTop;
 
 function myFunction() {
-if (window.pageYOffset >= sticky) {
-  header.classList.add("sticky");
-} else {
-  header.classList.remove("sticky");
+  if (window.pageYOffset >= sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
 }
-}
+</script>
+
+<script>
+  $("button").on("click", function () {
+  alert("clicked!")
+  });
 </script>
 
 </body>
