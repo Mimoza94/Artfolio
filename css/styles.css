@@ -1,7 +1,12 @@
 /* Add a black background color to the top navigation bar */
 .topnav {
     overflow: hidden;
-    background-color: #ddd;
+    background-color: #fff6fe;
+}
+
+.botnav {
+    overflow: hidden;
+    background-color: #fff6fe;
 }
 
 /* Style the links inside the navigation bar */
@@ -16,16 +21,41 @@
     font-size: 20px;
 }
 
+.botnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 0px 14px 0px 16px;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+}
+
+.topnav1 a {
+  padding: 15px 14px 0px 16px;
+}
+
 /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: #ddd;
+    background-color: fff6fe;
+    color: black;
+}
+
+.botnav a:hover {
+    background-color: fff6fe;
     color: black;
 }
 
 /* Style the "active" element to highlight the current page */
 .topnav a.active {
-    background-color: #ddd;
-    color: #ddd;
+    background-color: fff6fe;
+    color: fff6fe;
+}
+
+.botnav a.active {
+    background-color: fff6fe;
+    color: fff6fe;
 }
 
 /* Style the search box inside the navigation bar */
@@ -80,7 +110,7 @@
 /* Style the header */
 .header {
   padding: 0px 0px;
-  background-color: #ddd;
+  background-color: fff6fe;
 }
 
 /* Page content */
@@ -110,10 +140,16 @@
 }
 h1 {
   font-size: 65px;
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
 }
+.heading (
+  font-size: 65px;
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  )
 header{
-  background-image: url("../images/banner.png");
+  background-image: url("../images/banner.jpeg");
   repeat: no-repeat;
 }
 a {
@@ -149,4 +185,36 @@ a {
 
 .comics {
   text-align: center;
+}
+
+
+.artistsocials {
+  margin: 0px 15px 10px 15px;
+  text-align: left;
+}
+.copyright {
+  text-align: right;
+}
+
+
+#respond {
+  margin-top: 40px;
+}
+
+#respond input[type='text'],
+#respond input[type='email'],
+#respond textarea {
+  margin-bottom: 10px;
+  display: block;
+  width: 100%;
+
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+
+  line-height: 1.4em;
 }
