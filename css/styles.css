@@ -1,3 +1,15 @@
+
+/* Bottom right text */
+.text-block {
+    position: sticky;
+    bottom: 20px;
+    right: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 /* Add a black background color to the top navigation bar */
 .topnav {
     overflow: hidden;
@@ -134,6 +146,17 @@
 .banner{
   text-align: center;
   background: url("../images/banner.png");
+  padding: 200px 0px 0px 0px;
+  background-size: 100%;
+  repeat: no-repeat;
+  color: black;
+}
+.banner2{
+  text-align: center;
+  background: url("../images/bh site banner jpeg.png");
+  font-family: 'Permanent Marker', cursive;
+  font-size: 120px;
+  padding: 100px 0px 100px 0px;
   background-size: 100%;
   repeat: no-repeat;
   color: black;
@@ -141,6 +164,11 @@
 h1 {
   font-size: 65px;
   font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+.meetartist{
+  Font-size: 150;
+  font-family: 'Open Sans', sans-serif;
   text-align: center;
 }
 .heading (
@@ -175,6 +203,9 @@ a {
     width: 33.33%;
     padding: 37px;
 }
+.profilepic{
+  float: left;
+}
 
 .clearfix::after {
     content: "";
@@ -188,10 +219,6 @@ a {
 }
 
 
-.artistsocials {
-  margin: 0px 15px 10px 15px;
-  text-align: left;
-}
 .copyright {
   text-align: right;
 }
