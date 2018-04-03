@@ -1,38 +1,20 @@
-
-/* Bottom right text */
-.text-block {
-    position: sticky;
-    bottom: 20px;
-    right: auto;
-    background-color: rgba(0, 0, 0, 0.4);
-    color: black;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-/* Add a black background color to the top navigation bar */
 .topnav {
     overflow: hidden;
     background-color: #fff6fe;
 }
-
 .botnav {
     overflow: hidden;
     background-color: #fff6fe;
 }
-
-/* Style the links inside the navigation bar */
 .topnav a {
     float: left;
     display: block;
     color: black;
     text-align: center;
-    padding: 0px 14px 0px 16px;
+    padding: 0px 0px 0px 0px;
     text-decoration: none;
     font-family: 'Lato', sans-serif;
-    font-size: 20px;
 }
-
 .botnav a {
     float: left;
     display: block;
@@ -43,44 +25,33 @@
     font-family: 'Lato', sans-serif;
     font-size: 15px;
 }
-
 .topnav1 a {
-  padding: 15px 14px 0px 16px;
+  padding: 0px 0px 0px 0px;
 }
-
-/* Change the color of links on hover */
 .topnav a:hover {
     background-color: fff6fe;
     color: black;
 }
-
 .botnav a:hover {
     background-color: fff6fe;
     color: black;
 }
-
-/* Style the "active" element to highlight the current page */
 .topnav a.active {
     background-color: fff6fe;
     color: fff6fe;
 }
-
 .botnav a.active {
     background-color: fff6fe;
     color: fff6fe;
 }
-
-/* Style the search box inside the navigation bar */
 .topnav input[type=text] {
     float: right;
     padding: 6px;
     border: 20px;
-    margin-top: 8px;
+    margin-top: 15px;
     margin-right: 16px;
     font-size: 17px;
 }
-
-/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
 @media screen and (max-width: 600px) {
     .topnav a, .topnav input[type=text] {
         float: none;
@@ -93,55 +64,145 @@
     .topnav input[type=text] {
         border: 1px solid #ccc;
     }
+    .img-container {
+        float: center;
+        width: 100%;
+        padding: 0px;
+    }
+}
+.containerb {
+    position: relative;
+    width: 100%;
+}
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
 }
 
+.containerb:hover .image {
+  opacity: 0.3;
+}
 
+.containerb:hover .middle {
+  opacity: 1;
+}
 
+.text {
+  background-color: #fff6fe;
+  color: grey;
+  font-size: 16px;
+  padding: 16px 32px;
+}
 
+.text-block {
+    position: sticky;
+    bottom: 20px;
+    right: auto;
+    background-color: rgba(255, 246, 254, 0.7);
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
+.contactform{
+      border: 4px solid #ddd;
+}
 
+.contactform input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
 
+.contactform input[type=submit] {
+    background-color: #ddd;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
 
+.contactform input[type=submit]:hover {
+    background-color: grey;
+}
 
+.contactform .container {
+    border-radius: 5px;
+    background-color: #fff6fe;
+    padding: 20px;
+}
 
+.newsletter form {
+    border: 4px solid #ddd;
+}
 
+.newsletter .container {
+    padding: 1px 10px 1px 10px;
+    background-color: #fff6fe;
+}
 
+.newsletter input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
 
+.newsletter input[type=checkbox] {
+    margin-top: 16px;
+}
 
+.newsletter input[type=submit] {
+    background-color: #ddd;
+    color: black;
+    border: none;
+}
 
+.newsletter input[type=submit]:hover {
+    background-color: grey;
+}
 
-
-
-
-
-
-
-
-
-
-/* Style the header */
 .header {
   padding: 0px 0px;
   background-color: fff6fe;
 }
 
-/* Page content */
 .content {
   padding: 16px;
 }
 
-/* The sticky class is added to the header with JS when it reaches its scroll position */
 .sticky {
   position: fixed;
   top: 0;
   width: 100%
 }
 
-/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
   padding-top: 102px;
 }
-
 
 .banner{
   text-align: center;
@@ -161,6 +222,13 @@
   repeat: no-repeat;
   color: black;
 }
+.banner3{
+  text-align: center;
+  background: url("../images/logo.jpeg");
+  background-size: 100%;
+  repeat: no-repeat;
+}
+
 h1 {
   font-size: 65px;
   font-family: 'Lato', sans-serif;
@@ -213,19 +281,17 @@ a {
     display: table;
 }
 
-
 .comics {
   text-align: center;
 }
-
 
 .copyright {
   text-align: right;
 }
 
-
 #respond {
   margin-top: 40px;
+  padding: 0px 10px 0px 10px;
 }
 
 #respond input[type='text'],
@@ -245,3 +311,21 @@ a {
 
   line-height: 1.4em;
 }
+#respond {
+  background-color: #fff6fe;
+  border: 4px solid #ddd;
+}
+
+#respond input[type=submit] {
+    background-color: #ddd;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#respond input[type=submit]:hover {
+    background-color: grey;
+}
+        
