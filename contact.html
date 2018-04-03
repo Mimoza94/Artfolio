@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Artfolio - Contact us</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="header" id="myHeader">
+  <div class="topnav">
+    <a class="active" href="#home"> <a href="homepage.html"><img src="./images/artfolio small header.png" style="background-color: #fff6fe;"></a></a>
+    <div class="topnav1"><img src="./images/login icon.png" style="background-color: #fff6fe;"></a>
+    <input type="text" placeholder="Search.." style="background-color: #ddd; "></div>
+  </div>
+</div>
+
+<div class="heading"><h1>Contact us</h1></div>
+
+<div class="contactform">
+<div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="Philippines">Philippines</option>
+      <option value="united kingdom">United Kingdom</option>
+      <option value="usa">USA</option>
+      <option value="other">Other...</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Your comment..." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+</div>
+
+<br>
+
+<div class="botnav">
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+  <div class="copyright">© Artfolio 2018</div>
+</div>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>
