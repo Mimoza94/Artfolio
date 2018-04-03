@@ -14,8 +14,8 @@
 <div class="header" id="myHeader">
   <div class="topnav">
     <a class="active" href="#home"> <a href="homepage.html"><img src="./images/artfolio small header.png" style="background-color: #fff6fe;"></a></a>
-    <div class="topnav1"><a href="#Login">Login</a></div>
-    <input type="text" placeholder="Search.." style="background-color: #ddd; ">
+    <div class="topnav1"><img src="./images/login icon.png" style="background-color: #fff6fe;"></a>
+    <input type="text" placeholder="Search.." style="background-color: #ddd; "></div>
   </div>
 </div>
 
@@ -36,6 +36,9 @@
 </div>
 
 <div class="clearfix">
+  <div class="img-container">
+    <img src="./images/bh lumos2-2.png" alt="bh lumos" style="width: 365px; height:365px; border-radius: 15px;"> <button>Like</button>
+  </div>
   <div class="img-container">
     <img src="./images/bh cards.png" alt="bh cards" style="width: 365px; height:365px; border-radius: 15px;"> <button>Like</button>
   </div>
@@ -79,17 +82,31 @@
 </p>
 </div>
 
+<div class="newsletter">
+  <form action="action_page.php">
+    <div class="container">
+      <h2>Subscribe to the Bunster and Hariet newsletter</h2>
+    </div>
+
+    <div class="container" style="background-color:#fff6fe">
+      <input type="text" placeholder="Name" name="name" required>
+      <input type="text" placeholder="Email address" name="mail" required>
+      <label>
+        <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+      </label>
+    </div>
+
+    <div class="container">
+      <input type="submit" value="Subscribe">
+    </div>
+  </form>
+</div>
+
 <hr>
 
 <h1><small>Comments</h1></small>
 
 <div id="respond">
-          Is your pattern library up to date today? Alla Kholmatova has just finished a fully fledged book on Design Systems and how to get them right. With common traps, gotchas and the lessons she learned. Hardcover, eBook. Just sayin'.
-
-
-
-            Table of Contents →
-
   <h3>Leave a Comment</h3>
 
   <form action="post_comment.php" method="post" id="commentform">
@@ -97,26 +114,62 @@
     <label for="comment_author" class="required">Your name</label>
     <input type="text" name="comment_author" id="comment_author" value="" tabindex="1" required="required">
 
-    <label for="email" class="required">Your email;</label>
+    <label for="email" class="required">Your email</label>
     <input type="email" name="email" id="email" value="" tabindex="2" required="required">
 
     <label for="comment" class="required">Your message</label>
     <textarea name="comment" id="comment" rows="10" tabindex="4"  required="required"></textarea>
 
-    <-- comment_post_ID value hard-coded as 1 -->
     <input type="hidden" name="comment_post_ID" value="1" id="comment_post_ID" />
     <input name="submit" type="submit" value="Submit comment" />
 
   </form>
 </div>
 
-<br />
-<br />
-<br />
+<h1><small>Other comics you may like</h1></small>
+
+<div class="clearfix">
+
+<div class="img-container">
+  <div class="containerb">
+    <img src="./images/lingvistov.png" alt="lingvistov" style="width: 370px; height:365px; border-radius: 15px;"></a>
+      <div class="middle">
+        <div class="text">
+          <p><b><i>Lingvistov</p></b></i>
+          <small>One-panel comics about the realities of day to day life, plus cats.</small>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="img-container">
+  <div class="containerb">
+    <img src="./images/doodle for food.png" alt="doodle for food" style="width: 370px; height:365px; border-radius: 15px;"></a>
+      <div class="middle">
+        <div class="text">
+          <p><b><i>Doodle for food</p></b></i>
+          <small>Cute and funny comics with a pinch of biting humor.</small>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="img-container">
+  <div class="containerb">
+    <img src="./images/catana.jpg" alt="catana" style="width: 370px; height:365px; border-radius: 15px;"></a>
+      <div class="middle">
+        <div class="text">
+          <p><b><i>Catana</p></b></i>
+          <small>Catana and her tall bearded boyfriend doing things.</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <div class="botnav">
   <a href="about.html">About</a>
-  <a href="#contact">Contact</a>
+  <a href="contact.html">Contact</a>
   <div class="copyright">© Artfolio 2018</div>
 </div>
 
