@@ -328,4 +328,190 @@ a {
 #respond input[type=submit]:hover {
     background-color: grey;
 }
-        
+
+
+
+.sign {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sign * {box-sizing: border-box}
+
+/* Full-width input fields */
+.sign input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background-color: #fff6fe;
+}
+.sign{
+  background-color: #fff6fe;
+}
+.sign input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.sign hr {
+    border: 1px solid #ddd;
+    margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+.sign button {
+    background-color: #ddd;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.sign button:hover {
+    opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.sign .cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.sign .cancelbtn, .signupbtn {
+  float: left;
+  width: 100%;
+}
+
+/* Add padding to container elements */
+.sign .container {
+    padding: 16px;
+}
+
+/* Clear floats */
+.sign .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+.sign @media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
+
+
+.login input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+.login button {
+    background-color: #grey;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.login button:hover {
+    opacity: 0.8;
+}
+
+.login .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #ddd;
+}
+
+.login .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+.login img.avatar {
+    width: 7%;
+    border-radius: 50%;
+}
+
+.login .container {
+    padding: 16px;
+}
+
+.login span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+.login .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #fff6fe);
+    background-color: rgba(0,0,0,0.4)
+    padding-top: 60px;
+}
+
+.login .modal-content {
+    background-color: #fff6fe;
+    margin: 5% auto 15% auto;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.login .close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.login .close:hover,
+.login .close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+.login .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+.login @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+}
+
+.login @keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+.login @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
